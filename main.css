@@ -34,31 +34,51 @@ html {
 
 #me-arrow {
     position: absolute;
-    margin: 14% 0 0 9%;
+    margin: 14% 0 0 6%;
 }
 
 #contact-me {
     position: absolute;
     margin: 15% 1% .5% 33%;
+    transition: transform .2s;
+}
+
+#contact-me:hover {
+    transform: scale(1.3);
 }
 
 #me-me-me {
     position: absolute;
-    margin: 44% 2% .5% 33%;
+    margin: 47% 2% .5% 33%;
+    transition: transform .2s;
+}
 
+#me-me-me:hover {
+    transform: scale(1.3);
 }
 
 #stick-figure {
     position: absolute;
-    margin: 22% 5% .5% 12%;
+    margin: 22% 5% .5% 7%;
 }
 
 #listen-to-me {
     position: absolute;
     margin: 44% 0 0 8%;
+    transition: transform .2s;
 }
+
+#listen-to-me:hover {
+    transform: scale(1.3);
+}
+
 
 #look-at-me {
     position: absolute;
-    margin: 22% 2% .5% 28%;
+    margin: 25% 2% .5% 28%;
+    transition: transform .2s;
+}
+
+#look-at-me:hover {
+    transform: scale(1.3);
 }
