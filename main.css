@@ -1,5 +1,62 @@
-body {
-    background-image: url('notebook_paper_pic.jpg');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    background: url('./images/notebook_paper_pic.jpg');
+    background-color: #4f1616;
     background-repeat: no-repeat;
-    background-size: 700px 900px;
+    background-size: contain;
+    background-position: center;
+}
+
+.container {
+    margin: 0 25% 0 25%;
+    height: 100%;
+    /* width: 33%; */
+    position: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    }
+
+
+#headline {
+    margin: 0 0 0 7rem;
+    padding: 2% 0 0 2%;
+    position: absolute;
+}
+
+#me-arrow {
+    position: absolute;
+    margin: 14% 0 0 9%;
+}
+
+#contact-me {
+    position: absolute;
+    margin: 15% 1% .5% 33%;
+}
+
+#me-me-me {
+    position: absolute;
+    margin: 49% 0 0 6%;
+}
+
+#stick-figure {
+    position: absolute;
+    margin: 22% 5% .5% 12%;
+}
+
+#listen-to-me {
+    position: absolute;
+    margin: 40% 2% .5% 44%;
+}
+
+#look-at-me {
+    margin: 47% 2% .5% 57%;
 }
