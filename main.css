@@ -44,7 +44,8 @@ html {
 
 #me-me-me {
     position: absolute;
-    margin: 49% 0 0 6%;
+    margin: 44% 2% .5% 33%;
+
 }
 
 #stick-figure {
@@ -54,9 +55,10 @@ html {
 
 #listen-to-me {
     position: absolute;
-    margin: 40% 2% .5% 44%;
+    margin: 44% 0 0 8%;
 }
 
 #look-at-me {
-    margin: 47% 2% .5% 57%;
+    position: absolute;
+    margin: 22% 2% .5% 28%;
 }
