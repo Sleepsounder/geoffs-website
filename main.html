@@ -13,18 +13,38 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
-  <div class='container'> 
-    <img id='headline'src="./images/headline.png" alt="Headline" height="300" width="400">
-    <img id='me-arrow' src="./images/me_arrow.png" alt="Me Arrow" height="150" width="150">
-    <img id='contact-me' src="./images/contact_me.png" alt="Contact Me" height="90" width="200">
-    <img id='me-me-me' src="./images/me_me_me.png" alt="Me Trio" height="250" width="250">
-    <img id='stick-figure' src="./images/stick_me.png" alt="Stick Figure Me" height="400" width="350">
-    <img id='listen-to-me' src="./images/listen_to_me.png" alt="Listen To Me" height="300" width="250">
-    <img id='look-at-me' src="./images/look_at_me.png" alt="Look At Me" height="300" width="250">
-  </div>  
+    <div class='container'>
+        <img id='headline' src="./images/headline.png" alt="Headline" height="300" width="400">
+        <img id='me-arrow' src="./images/me_arrow.png" alt="Me Arrow" height="150" width="150">
+        <img id='contact-me' span onclick="openContact()" src="./images/contact_me.png" alt="Contact Me" height="90"
+            width="200">
+        <img id='me-me-me' src="./images/me_me_me.png" alt="Me Trio" height="250" width="250">
+        <img id='stick-figure' src="./images/stick_me.png" alt="Stick Figure Me" height="400" width="350">
+        <img id='listen-to-me' src="./images/listen_to_me.png" alt="Listen To Me" height="300" width="250">
+        <img id='look-at-me' src="./images/look_at_me.png" alt="Look At Me" height="300" width="250">
+    </div>
+
+    <div id="myContact" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeContact()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <h2>Hi, ho! Hi, ho! Here's my email address and phone number:</h2>
+            <p>geoff.register@gmail.com</p>
+            <p>(919)880.5520</p>
+
+        </div>
+
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <!-- <span onclick="openContact()">open</span> -->
 </body>
 
 </html>
