@@ -61,8 +61,17 @@ html {
 }
 
 #stick-figure {
+    background: url('./images/stick_me.png');
     position: absolute;
     margin: 22% 5% .5% 9%;
+}
+
+#stick-figure:hover {
+    background-repeat: no-repeat;
+    background: url('./images/my-stick-photo.png');
+    width: 500px;
+    height: 400px;
+    margin: 20% 5% .5% 4%;
 }
 
 #listen-to-me {
