@@ -10,7 +10,7 @@ html, body {
 
 html {
     background: url('./images/notebook_paper_pic.jpg');
-    background-color: #401616;
+    background-color: #180a0a;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -99,7 +99,7 @@ html {
 #stick-figure {
     /* background: url('./images/stick_me.png'); */
     height: 400px;
-    width: 375px;
+    width: 400px;
     position: absolute;
     margin: 300px 1% .5% 12%;
     transition: transform .2s;
@@ -243,7 +243,7 @@ html {
 
 #my-heavy-band {
     position: absolute;
-    margin: 580px 0 0 13%;
+    margin: 550px 0 0 13%;
     height: 250px; 
     width: 250px;
     transition: transform .2s;
