@@ -1,0 +1,297 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;    
+}
+
+html {
+    background: url('./images/notebook_paper_pic.jpg');
+    background-color: #180a0a;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 710px;
+    min-height: 900px;
+   
+}
+
+.container {
+    margin: 0 25% 0 23%;
+    border: 0 25% 0 23%;
+    min-width: 710px;
+    height: 100%;
+    position: center;
+    /* left: 50%;
+    margin-top: -50px;
+    margin-left: -100px; */
+    }
+
+
+#header {
+    margin: 2% 10% 0 9%;
+    position: absolute;
+    height: 350px; 
+    width: 520px;
+}
+
+#me-arrow {
+    margin: 190px 1% .5% 12%;
+    position: absolute;
+    height: 150px; 
+    width: 150px;
+}
+
+.sub-menu-parent { 
+    position: absolute;
+    margin: 250px 2% .5% 35%;
+}
+
+#contact-me {
+    position: relative;
+    height: 90px; 
+    width: 200px;
+}
+
+.sub-menu { 
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 1rem;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+.contact-info {
+    padding-bottom: .5rem;
+    color: rgb(46, 46, 46);
+}
+
+
+/* #me-me-me {
+    position: absolute;
+    margin: 46% 2% .5% 33%;
+    transition: transform .2s;
+}
+
+#me-me-me:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+} */
+
+#stick-figure {
+    /* background: url('./images/stick_me.png'); */
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin: 300px 1% .5% 12%;
+    transition: transform .2s;
+}
+
+#stick-figure:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#listen-to-me {
+    position: absolute;
+    margin: 580px 0 0 19%;
+    transition: transform .2s;
+}
+
+#listen-to-me:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+#look-at-me {
+    position: absolute;
+    margin: 350px 1% .5% 30%; 
+    height: 300px; 
+    width: 250px;
+    transition: transform .2s;
+}
+
+#look-at-me:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,38,77); /*Black fallback color */
+    background-color: rgba(0,38,77, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 40%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    
+}
+
+
+/* The navigation links inside the overlay */
+.overlay p, a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #f1f1f1;
+    display: block; /* Display block instead of inline */
+}
+
+.overlay h2 {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block; /* Display block instead of inline */
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#my-github {
+    position: absolute;
+    margin: 400px 1% .5% 28%; 
+    height: 300px; 
+    width: 300px;
+    transition: transform .2s;
+}
+
+#my-github:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#my-student-project {
+    position: absolute;
+    margin: 580px 0 0 13%;
+    height: 300px; 
+    width: 300px;
+    transition: transform .2s;
+}
+
+#my-student-project:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#my-resume {
+    position: absolute;
+    margin: 220px 0 0 13%;
+    height: 300px; 
+    width: 300px;
+    transition: transform .2s;
+}
+
+#my-resume:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#back {
+    position: absolute;
+    margin: 720px 0 0 12%;
+    height: 200px; 
+    width: 200px;
+    transition: transform .2s;
+}
+
+#back:hover {
+    cursor: pointer;
+}
+
+.look-container {
+    background: url('./images/notebook_paper_pic.jpg');
+}
+
+#my-heavy-band {
+    position: absolute;
+    margin: 550px 0 0 13%;
+    height: 250px; 
+    width: 250px;
+    transition: transform .2s;
+}
+
+#my-heavy-band:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#my-jazz-band {
+    position: absolute;
+    margin: 400px 1% .5% 28%; 
+    height: 250px; 
+    width: 250px;
+    transition: transform .2s;
+}
+
+#my-jazz-band:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#soundcloud {
+    position: absolute;
+    margin: 220px 0 0 13%;
+    height: 300px; 
+    width: 300px;
+    transition: transform .2s;
+}
+
+#soundcloud:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#me-photo-stick {
+position: absolute;
+width: 200px;
+height: 150px;
+margin: 75px 0 0 37%;
+
+}
+
+#guitar {
+    position: absolute;
+    width: 320px;
+    height: 250px;
+    margin: 75px 0 0 40%;
+    
+    }
