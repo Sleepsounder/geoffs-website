@@ -375,4 +375,39 @@ margin: 75px 0 0 37%;
 
     }
 
+    #me-photo-stick {
+        position: absolute;
+        width: 150px;
+        height: 125px;
+        margin: 75px 0 0 57%;
+        
+        }
+     #my-resume {
+        position: absolute;
+        margin: 200px 0 0 8%;
+        height: 170px; 
+        width: 170px;
+        }
+
+
+     #my-github {
+        position: absolute;
+        margin: 330px 1% .5% 48%; 
+        height: 170px; 
+        width: 170px;
+        }
+
+        #my-student-project {
+            position: absolute;
+            margin: 400px 0 0 13%;
+            height: 200px; 
+            width: 200px;
+        }
+        #back {
+            position: absolute;
+            margin: 500px 0 0 42%;
+            height: 150px; 
+            width: 150px;
+        }
+
 }
