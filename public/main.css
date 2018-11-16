@@ -277,32 +277,28 @@ html {
 }
 
 #soundcloud:hover {
-    transform: scale(1.3);
-    cursor: pointer;
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 #me-photo-stick {
-position: absolute;
-width: 200px;
-height: 150px;
-margin: 75px 0 0 37%;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  margin: 75px 0 0 37%;
 
 }
 
 #guitar {
-    position: absolute;
-    width: 320px;
-    height: 250px;
-    margin: 75px 0 0 40%;
-    
-    }
+  position: absolute;
+  width: 320px;
+  height: 250px;
+  margin: 75px 0 0 40%;
+}
 
 
 @media screen and (max-width: 600px) {
-/* 
-  html, body {
-      min-height: 100%;
-      } */
+
 
   html { 
     background: url('./images/notebook_paper_pic.jpg') no-repeat center center fixed ;
@@ -310,34 +306,30 @@ margin: 75px 0 0 37%;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* width: 375px;
-    height: 667px; */
     overflow: hidden;
-         }
+  }
 
    .container {
-    padding: none;
-    margin: 0;
+      padding: none;
+      margin: 0;
     /* border: 0 25% 0 23%; */
-    width: 375px;
-    height: 667px;
-    position: center;
-        
-    
+      width: 375px;
+      height: 667px;
+      position: center;  
     }
 
     #header {
-        margin: 4% 10% 0 0%;
-        position: absolute;
-        height: 250px; 
-        width: 420px;
+      margin: 4% 10% 0 0%;
+      position: absolute;
+      height: 250px; 
+      width: 420px;
     }
     
     #me-arrow {
-        margin: 180px 1% .5% 6%;
-        position: absolute;
-        height: 100px; 
-        width: 100px;
+      margin: 180px 1% .5% 6%;
+      position: absolute;
+      height: 100px; 
+      width: 100px;
     }
     
 
@@ -379,12 +371,12 @@ margin: 75px 0 0 37%;
         position: absolute;
         width: 150px;
         height: 125px;
-        margin: 75px 0 0 57%;
+        margin: 75px 0 0 2%;
         
         }
      #my-resume {
         position: absolute;
-        margin: 200px 0 0 8%;
+        margin: 142px 0 0 48%;
         height: 170px; 
         width: 170px;
         }
@@ -392,20 +384,48 @@ margin: 75px 0 0 37%;
 
      #my-github {
         position: absolute;
-        margin: 330px 1% .5% 48%; 
+        margin: 300px 1% .5% 10%; 
         height: 170px; 
         width: 170px;
         }
 
         #my-student-project {
             position: absolute;
-            margin: 400px 0 0 13%;
+            margin: 400px 0 0 33%;
             height: 200px; 
             width: 200px;
         }
         #back {
             position: absolute;
-            margin: 500px 0 0 42%;
+            margin: 500px 0 0 6%;
+            height: 150px; 
+            width: 150px;
+        }
+
+        #guitar {
+            position: absolute;
+            width: 220px;
+            height: 150px;
+            margin: 75px 0 0 8%;
+        }
+
+        #soundcloud {
+            position: absolute;
+            margin: 140px 0 0 40%;
+            height: 200px; 
+            width: 200px;
+        }
+
+        #my-jazz-band {
+            position: absolute;
+            margin: 290px 1% .5% 12%; 
+            height: 150px; 
+            width: 150px;
+        }
+
+        #my-heavy-band {
+            position: absolute;
+            margin: 400px 0 0 53%;
             height: 150px; 
             width: 150px;
         }
