@@ -16,6 +16,7 @@ html {
     background-position: center;
     min-width: 710px;
     min-height: 900px;
+  
    
 }
 
@@ -295,3 +296,83 @@ margin: 75px 0 0 37%;
     margin: 75px 0 0 40%;
     
     }
+
+
+@media screen and (max-width: 600px) {
+/* 
+  html, body {
+      min-height: 100%;
+      } */
+
+  html { 
+    background: url('./images/notebook_paper_pic.jpg') no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* width: 375px;
+    height: 667px; */
+    overflow: hidden;
+         }
+
+   .container {
+    padding: none;
+    margin: 0;
+    /* border: 0 25% 0 23%; */
+    width: 375px;
+    height: 667px;
+    position: center;
+        
+    
+    }
+
+    #header {
+        margin: 4% 10% 0 0%;
+        position: absolute;
+        height: 250px; 
+        width: 420px;
+    }
+    
+    #me-arrow {
+        margin: 180px 1% .5% 6%;
+        position: absolute;
+        height: 100px; 
+        width: 100px;
+    }
+    
+
+    #stick-figure {
+        /* background: url('./images/stick_me.png'); */
+        height: 300px;
+        width: 250px;
+        position: absolute;
+        margin: 250px 1% .5% 3%;
+    }
+    .sub-menu-parent { 
+        position: absolute;
+        margin: 160px 2% .5% 55%;
+    }
+
+    #contact-me {
+        position: relative;
+        height: 50px; 
+        width: 130px;
+    }
+
+    #look-at-me {
+        position: absolute;
+        margin: 210px 1% .5% 50%; 
+        height: 200px; 
+        width: 200px;
+
+    }
+
+    #listen-to-me {
+        position: absolute;
+        margin: 420px 0 0 19%;
+        height: 200px;
+        width: 200px;
+
+    }
+
+}
